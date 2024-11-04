@@ -1,0 +1,47 @@
+body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3em;
+      color: black;
+      background-color: white;
+      margin-bottom: 20px;
+      border: 1px double #000
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin: 5px;
+    }
+    #sorteados {
+      margin-top: 20px;
+      max-width: 300px;
+      text-align: center;
+      font-size: 1em;
+      color: #333;
+    }
+    .bold {
+      font-weight: bold;
+    }
+ 
